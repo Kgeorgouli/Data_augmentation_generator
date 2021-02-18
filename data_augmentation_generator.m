@@ -35,8 +35,7 @@ function synsamples = data_augmentation_generator( sample1,sample2,per,yaxis_int
     
     %%Parameters checking
     if isempty(sample1)==1
-        X = sprintf('Sample1 is required.');
-        disp(X);
+        disp('Sample1 is required.');
         return;
     end    
     
