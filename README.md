@@ -24,11 +24,13 @@ A data augmentation solution to increase the performance of a classification mod
  `synsamples` - the generated spectra.   
 
 ### Examples:
-1. This example makes use of the blender block where sample1 and sample2 are used for generating artificial admixtures for `per` concentration grades.
+1. This example makes use of the blender block where sample1 and sample2 are used for generating artificial admixtures for `per` different concentration grades (weighted sum of the imput samples).
 ```
 per=[0.16,0.18,0.20,0.40,0.60,0.70,0.80,0.82,0.84];
 data_augmentation_generator(sample1,sample2,per,0,0,[],0,0); 
 ```
+2. The following example generates 33 data augmented samples of sample1 by applying M= 1.01 to 1.33 with a step of 0.01, shifting along x-axis: Laplacian distribution with b = 0.6 (20 samples), noise: 10 samples with 35 dB Gaussian noise. Specifically, 
+`tempsp=data_augmentation_generator(sample1,[],[],33,20,wavelengths,35,10);`
 
 If you use data augmentation generator we would appreciate a citation to:
 
