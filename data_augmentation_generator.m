@@ -53,7 +53,7 @@ function synsamples = data_augmentation_generator( sample1,sample2,per,yaxis_int
             factor=0.01*i;
             newspp(i,:)=sample1*(1+factor);
         end
-        yshiftedspectra=[newspp];
+        yshiftedspectra=newspp;
     end
 
     %% Shifting along x axis
