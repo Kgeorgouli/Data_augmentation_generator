@@ -3,7 +3,9 @@ A data augmentation solution to increase the performance of a classification mod
 
 ### Usage:
   `synsamples = data_augmentation_generator( sample1,sample2,per,yaxis_intensifier,xaxis_shift_samples,wavelengths,gaussiansnr,gaussian_samples)` 
-   **Input**:
+ 
+**Input**:
+
               `sample1` - Main sample spectrum (Array 1xN, N is the number of
                         wavelengths/wavenumbers)
               `sample2` - Second sample spectrum for the blender block (Array 1xN) 
