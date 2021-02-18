@@ -27,5 +27,6 @@ data_augmentation_generator(sample1,sample2,per,0,0,[],0,0);
 '''
 
 If you use data augmentation generator we would appreciate a citation to:
-[Georgouli, K., Osorio, M.T., Martinez Del Rincon, J. and Koidis, A., 2018. Data augmentation in food science: Synthesising spectroscopic data of vegetable oils for performance enhancement. Journal of Chemometrics, 32(6), p.e3004.] (https://onlinelibrary.wiley.com/doi/full/10.1002/cem.3004?casa_token=2nxP1jZQdssAAAAA%3AZKK6sp65Uz1PsfCD5oJEqUP9vIyaJ1LkGbFPEagIQMuDNCnQYm2WceB0dB_tLzRi5pqUWkc43yALAYw)
+
+[Georgouli, K., Osorio, M.T., Martinez Del Rincon, J. and Koidis, A., 2018. Data augmentation in food science: Synthesising spectroscopic data of vegetable oils for performance enhancement. Journal of Chemometrics, 32(6), p.e3004.](https://onlinelibrary.wiley.com/doi/full/10.1002/cem.3004?casa_token=2nxP1jZQdssAAAAA%3AZKK6sp65Uz1PsfCD5oJEqUP9vIyaJ1LkGbFPEagIQMuDNCnQYm2WceB0dB_tLzRi5pqUWkc43yALAYw)
 
