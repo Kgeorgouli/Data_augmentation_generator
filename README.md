@@ -1,5 +1,5 @@
 # Data augmentation generator
-A data augmentation solution to increase the performance of a classification model by generating realistic data augmented samples.
+Data augmentation generator is a data augmentation solution to increase the performance of a classification model by generating realistic data augmented samples.
 
 ### Usage:
   ```synsamples = data_augmentation_generator( sample1, sample2, per, yaxis_intensifier, xaxis_shift_samples, wavelengths, gaussiansnr, gaussian_samples)``` 
