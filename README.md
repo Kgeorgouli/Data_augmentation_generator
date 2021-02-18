@@ -24,6 +24,7 @@ A data augmentation solution to increase the performance of a classification mod
  `synsamples` - the generated spectra.   
 
 ### Examples:
+1. This example makes use of the blender block where sample1 and sample2 are used for generating artificial admixtures for `per` concentration grades.
 ```
 per=[0.16,0.18,0.20,0.40,0.60,0.70,0.80,0.82,0.84];
 data_augmentation_generator(sample1,sample2,per,0,0,[],0,0); 
