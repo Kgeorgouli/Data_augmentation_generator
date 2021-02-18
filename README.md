@@ -29,7 +29,7 @@ Data augmentation generator is a data augmentation solution to increase the perf
 per=[0.16,0.18,0.20,0.40,0.60,0.70,0.80,0.82,0.84];
 data_augmentation_generator(sample1,sample2,per,0,0,[],0,0); 
 ```
-2. The following example generates 33 data augmented samples of sample1 by applying spectral intensifier: M= 1.01 to 1.33 with a step of 0.01, shifting along x-axis: Laplacian distribution with b = 0.6 (20 samples), noise: 10 samples with 35 dB Gaussian noise. 
+2. The following example generates 33 data augmented samples of sample1 by applying spectral intensifier: M= 1.01 to 1.33 with a step of 0.01, shifting along x-axis: Laplacian distribution with b = 0.6 (20 samples), and noise: 10 samples with 35 dB Gaussian noise. 
 ```tempsp=data_augmentation_generator(sample1,[],[],33,20,wavelengths,35,10);```
 
 If you use data augmentation generator we would appreciate a citation to:
