@@ -2,29 +2,29 @@
 A data augmentation solution to increase the performance of a classification model by generating realistic data augmented samples.
 
 ### Usage:
-  synsamples = data_augmentation_generator( sample1,sample2,per,yaxis_intensifier,xaxis_shift_samples,wavelengths,gaussiansnr,gaussian_samples) 
+  `synsamples = data_augmentation_generator( sample1,sample2,per,yaxis_intensifier,xaxis_shift_samples,wavelengths,gaussiansnr,gaussian_samples)` 
    **Input**:
-              sample1 - Main sample spectrum (Array 1xN, N is the number of
+              `sample1` - Main sample spectrum (Array 1xN, N is the number of
                         wavelengths/wavenumbers)
-              sample2 - Second sample spectrum for the blender block (Array 1xN) 
-              per - concentration grades for the blender block (Array)
-              yaxis_intensifier - amplification factor for spectral intensifier
-              xaxis_shift_samples - number of samples produced by shifting
+              `sample2` - Second sample spectrum for the blender block (Array 1xN) 
+              `per` - concentration grades for the blender block (Array)
+              `yaxis_intensifier` - amplification factor for spectral intensifier
+              `xaxis_shift_samples` - number of samples produced by shifting
                                     along x axis block
-              wavelengths - wavelengths/wavenumbers of the spectra needed
+              `wavelengths` - wavelengths/wavenumbers of the spectra needed
                             for the shifting along x axis block (Array 1xN)
-              gaussiansnr - Gaussian noise signal-to-noise ratio per spectrum, in dB
-              gaussian_samples - number of samples produced by adding noise
+              `gaussiansnr` - Gaussian noise signal-to-noise ratio per spectrum, in dB
+              `gaussian_samples` - number of samples produced by adding noise
                                  block
               
  **Output**:
-             synsamples - the generated spectra.   
+             `synsamples` - the generated spectra.   
 
 ### Examples:
-'''
+```
 per=[0.16,0.18,0.20,0.40,0.60,0.70,0.80,0.82,0.84];
 data_augmentation_generator(sample1,sample2,per,0,0,[],0,0); 
-'''
+```
 
 If you use data augmentation generator we would appreciate a citation to:
 
