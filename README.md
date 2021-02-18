@@ -6,7 +6,7 @@ A data augmentation solution to increase the performance of a classification mod
  
 **Input**:
 
-              **sample1** - Main sample spectrum (Array 1xN, N is the number of
+              ` sample1 ` - Main sample spectrum (Array 1xN, N is the number of
                         wavelengths/wavenumbers)  
               `sample2` - Second sample spectrum for the blender block (Array 1xN) 
               `per` - concentration grades for the blender block (Array)
