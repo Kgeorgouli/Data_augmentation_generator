@@ -8,14 +8,14 @@ A data augmentation solution to increase the performance of a classification mod
 
  `sample1` - Main sample spectrum (Array 1xN, N is the number of
              wavelengths/wavenumbers)  
- `sample2` - Second sample spectrum for the blender block (Array 1xN) 
- `per` - concentration grades for the blender block (Array)
- `yaxis_intensifier` - amplification factor for spectral intensifier
+ `sample2` - Second sample spectrum for the blender block (Array 1xN)  
+ `per` - concentration grades for the blender block (Array)  
+ `yaxis_intensifier` - amplification factor for spectral intensifier  
  `xaxis_shift_samples` - number of samples produced by shifting
-                         along x axis block
+                         along x axis block  
  `wavelengths` - wavelengths/wavenumbers of the spectra needed
-                 for the shifting along x axis block (Array 1xN)
- `gaussiansnr` - Gaussian noise signal-to-noise ratio per spectrum, in dB
+                 for the shifting along x axis block (Array 1xN)  
+ `gaussiansnr` - Gaussian noise signal-to-noise ratio per spectrum, in dB  
  `gaussian_samples` - number of samples produced by adding noise
                       block
               
