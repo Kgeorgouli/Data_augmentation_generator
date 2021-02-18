@@ -20,6 +20,7 @@ A data augmentation solution to increase the performance of a classification mod
                                  block
               
  **Output**:
+ 
              `synsamples` - the generated spectra.   
 
 ### Examples:
